@@ -59,7 +59,7 @@ BOT_TOKEN = os.environ.get("TOKEN", "7282714112:AAFPB0W1s2Ej8W9MZlBRNWmEsMNluLbl
 BOT_ID = int(os.environ.get("BOT_ID", "7282714112"))  
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "özelliklerim")  
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002238574089")  
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002238574089""))  
 OWNER_ID = 7305205222  # Sahip hesabın id'si
 
 
@@ -402,6 +402,10 @@ async def chatModeHandler(bot: Client, msg: Message):
     
     elif kontrol(["naber"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
         reply = random.choice(naber)
+        await asyncio.sleep(0.06)  
+
+    elif kontrol(["sen"], text): # * Selam yazısı metnin içinde varsa cevap veriyoruz
+        reply = random.choice(sen)
         await asyncio.sleep(0.06)  
         
 
