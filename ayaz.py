@@ -127,7 +127,7 @@ gece = (
 )
 
 sahip = (
-"@MAD1BOY **Sana sesleniyorlarr**",
+"@GeceBeyYa @mad1boy **Sana sesleniyorlarr**",
 "**Adamdır** 🌹",
 "**Adamımmmm**",
 "**Sahibime mi sesleniyorsun?**",
